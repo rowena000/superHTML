@@ -1,0 +1,319 @@
+
+body {
+	font-family: Trebuchet MS, sans-serif;
+	background-image: url("http://cs-server.usc.edu:45678/hw/hw3/images/bg.png");
+	margin: 0px;
+}
+
+/**
+ * 	container class
+ */
+.container {
+	margin: 50px auto;
+	width: 800px;
+}
+
+
+/**
+ * 	Header Class
+ */
+.header {
+	font-size: 18px;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 50px;
+	line-height: 40%;
+	padding-top: 20px;
+	padding-left: 10px;
+	margin-bottom: 29px;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+/**
+ * 	Navigation bar
+ */
+
+#navigation {
+	height: 40px;
+	background: black;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+ul {
+	list-style-type:none;
+	padding-left: 40px;
+	font-size: 17px;
+	font-weight: lighter;
+}
+
+li {
+	float:left;
+}
+
+.navbar a {
+	display:block;
+	padding-left: 24px;
+	padding-right: 24px;
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+	color: white;
+	font-weight: 100;
+}
+
+
+a:hover {
+	background-color: #d71a45;
+}
+
+.active  {
+	background-color: #d71a45;
+	border-radius: 5px 0 0 5px;
+}
+
+/**
+ * 	featured article
+ */
+#featured {
+	padding-left: 24px;
+}
+
+#FA {
+	padding-top: 12px;
+	color: #d71a45;
+	font-size: 25px;
+}
+
+#HSM {
+	font-size: 20px;
+	line-height: 0.6em;
+}
+
+#Discover {
+	font-size: 14px;
+	width: 400px;
+	line-height: 1.5em;
+	padding-bottom: 5px;
+}
+
+.section {
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
+	margin-top: 25px; 
+	display: inline-block;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+#img1 {
+	margin-top: 50px;
+	margin-right: 50px;
+	border: 2px solid #F5F5F5;
+}
+
+.enrique {
+	color: #d71a45;	
+	text-decoration: underline;
+}
+
+.date {
+	font-size: 14px;
+	margin-left: 20px;
+	line-height: 1.5em;
+}
+
+.section-line {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100%;
+	display: inline-block;
+}
+
+#section-line-container {
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	width: 730px;
+}
+
+.section-line:hover {
+	background: #D71A45;
+	color: white;
+}
+
+	.section-line:hover .enrique {
+		color: yellow;
+		/*text-shadow: 0px 1px #000000;*/
+	}
+	.section-line:hover .section-title {
+		color: yellow;
+		/*text-shadow: 0px 1px #000000;*/
+	}
+
+
+.section-line-right {
+	width: 540px;
+	padding-top: 12px;
+}
+
+.section-title {
+	font-size: 20px;
+	color:#D71A45;
+	margin-bottom: 15px; 
+}
+.section-content {
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+hr {
+	padding: 0px;
+	margin-top: -4px;
+	margin-bottom: -1px;
+	border: none;
+    height: 1px;
+    background-color: #E6E6E6;
+}
+
+#middle-section {
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
+	margin-top: 25px; 
+}
+
+.blogroll {
+	margin-top: 35px;
+}
+
+.blogroll a {
+	text-decoration: none;
+	color: black;
+}
+
+
+.blogroll-title {
+	font-size: 20px;
+	color:#D71A45;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+table {
+	padding-left: 35px;
+	font-size: 14px;
+}
+
+td {
+	height: 25px;
+	width: 200px;
+}
+
+.social {
+	width: 170px;	
+}
+
+.social-line {
+	width: 145px;
+	height: 25px;
+	margin-left: 35px;
+	padding-bottom: 2px;
+}
+
+.social-line:hover {
+	background: #D71A45;
+	color: #ffffff;
+	/*text-shadow: 0px 1px #000000;*/
+}
+
+.social-icon {
+	/*height: 25px;*/
+	margin-left: 5px;
+	margin-top:  2px;
+	line-height: 25px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.social-name {
+	font-size: 14px;
+	/*height:25px;*/
+	line-height: 25px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+#social-title {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.redblock {
+	height: 25px;
+	width: 190px;
+	line-height: 25px;
+}
+
+.redblock span {
+	padding-left: 5px;
+}
+
+.redblock:hover {
+	background: #D71A45;
+	color: #ffffff;
+	/*text-shadow: 0px 1px #000000;*/
+}
+
+#super {
+	font-size: 18px;
+	color:#D71A45;
+	font-weight: bold;
+	line-height: 30%;
+	padding-left:30px;
+	padding-top: 10px;
+}
+
+#amazing {
+	font-size: 14px;
+	line-height: 30%;
+	padding-left: 30px;
+	padding-bottom: 28px;
+}
+
+#img2 {
+	padding-top: 25px;
+	padding-left: 50px;
+}
+
+#super-content {
+	font-size: 14px;
+	padding-top: 10px;
+	width: 500px;
+	padding-right: 10px;
+}
+
+#bottom-section {
+	margin-top: 43px;
+}
+
+#foot {
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+
+
